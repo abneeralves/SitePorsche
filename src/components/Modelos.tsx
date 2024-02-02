@@ -8,10 +8,10 @@ type Mainprops = {
 const Main = ({ modelo, imagem}: Mainprops) => {
     return (
        
-        <div className='relative ml-64'>
-            <Image className='rounded-xl mt-24 mb-40 ' src={imagem} alt='Carro Eletrico' width={410}/>
+        <div className='relative'>
+            <Image className='rounded-xl mt-24 mb-40' src={imagem} alt='Carro Eletrico' width={410}/>
             <div className='absolute inset-0 flex items-center justify-center'>
-                <p className='mt-52 text-lg font-semibold text-white'>{modelo}</p>
+                <p className='mt-56 text-xl font-semibold text-white'>{modelo}</p>
             </div>
             
 
