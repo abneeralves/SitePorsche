@@ -5,19 +5,14 @@ type Mainprops = {
     imagem: StaticImageData
 }
 
-const Main = ({ modelo, imagem}: Mainprops) => {
+const Modelos = ({ modelo, imagem}: Mainprops) => {
     return (
        
         <div className='relative'>
-            <Image className='rounded-xl mt-24 mb-40' src={imagem} alt='Carro Eletrico' width={410}/>
-            <div className='absolute inset-0 flex items-center justify-center'>
-                <p className='mt-56 text-xl font-semibold text-white'>{modelo}</p>
-            </div>
-            
-
+            <Image className='rounded-xl h-[50rem] object-cover' src={imagem} alt='Carro Eletrico' />
         </div>    
         
     )
 }
 
-export default Main
+export default Modelos

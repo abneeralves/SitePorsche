@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="PT-br">
-      <body className='bg-zing'>{children}</body>
+    <html className="bg-white" lang="PT-br">
+      <body className=''>{children}</body>
     </html>
   );
 }
