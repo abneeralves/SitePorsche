@@ -9,6 +9,12 @@ import ModeloTaycan from '../../public/ModeloTaycan.jpg'
 import ModeloPanamera from '../../public/ModeloPanamera.jpg'
 import ModeloMacan from '../../public/ModeloMacan.jpg'
 import ModeloCayenne from '../../public/ModeloCayenne.jpg'
+import LogoCayman from '../../public/LogoCayman.png'
+import LogoCarrera from '../../public/LogoCarrera.png'
+import LogoTaycan from '../../public/LogoTyacan.png'
+import LogoPanamera from '../../public/LogoPanamera.png'
+import LogoMacan from '../../public/LogoMacan.png'
+import LogoCayenne from '../../public/LogoCayenne.png'
 
 
 
@@ -37,27 +43,27 @@ export default function Main() {
             
             <div className='grid grid-cols-2 gap-4  bg-white'>
                 <div className='ml-72 mx-2 my-2 mt-20 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo="718 Spyder RS." imagem={Modelo718}/>
+                    <Modelos modelo={LogoCayman} imagem={Modelo718}/>    
                 </div>
 
                 <div className='mr-72 mx-2 my-2 mt-20 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo="718 Spyder RS." imagem={Modelo911}/>
+                    <Modelos modelo={LogoCarrera} imagem={Modelo911}/>
                 </div>
                 
                 <div className='ml-72 mx-2 my-2 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo="718 Spyder RS." imagem={ModeloTaycan}/>   
+                    <Modelos modelo={LogoTaycan} imagem={ModeloTaycan}/>   
                 </div>
                 
                 <div className='mr-72 mx-2 my-2 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo="718 Spyder RS." imagem={ModeloPanamera}/>
+                    <Modelos modelo={LogoPanamera} imagem={ModeloPanamera}/>
                 </div>
 
-                <div className='ml-72 mx-2 my-2 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo="718 Spyder RS." imagem={ModeloMacan}/>
+                <div className='ml-72 mx-2 my-2 hover:opacity-90 transition-opacity '>
+                    <Modelos modelo={LogoMacan} imagem={ModeloMacan}/>
                 </div>
 
                 <div className='mr-72 mx-2 my-2 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo="718 Spyder RS." imagem={ModeloCayenne}/>
+                    <Modelos modelo={LogoCayenne} imagem={ModeloCayenne}/>
                 </div>
             </div>
         

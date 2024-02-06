@@ -13,9 +13,8 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       }, height: {
-        '128': '50rem'
-      }, width: {
-        '128': '60rem'
+        '128': '50rem',
+        '10': '10rem'
       }
     },
   },
