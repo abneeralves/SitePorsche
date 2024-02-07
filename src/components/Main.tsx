@@ -42,28 +42,28 @@ export default function Main() {
             
             
             <div className='grid grid-cols-2 gap-4  bg-white'>
-                <div className='ml-72 mx-2 my-2 mt-20 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo={LogoCayman} imagem={Modelo718}/>    
+                <div className='relative ml-72 mx-2 my-2 mt-20'>
+                    <Modelos modelo={LogoCayman} imagem={Modelo718} descrição='Dois Lugares com alta dinâmica de condução graçãs ao seu motor central.' config='Configurar o 718' tdsModel='Todos os modelos 718' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=718' link2='https://www.porsche.com/brazil/pt/models/718/'/>
                 </div>
 
-                <div className='mr-72 mx-2 my-2 mt-20 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo={LogoCarrera} imagem={Modelo911}/>
+                <div className='mr-72 mx-2 my-2 mt-20'>
+                    <Modelos modelo={LogoCarrera} imagem={Modelo911} descrição='Icônico carro esportivo com motor montado na traseira e desempenho superios.' config='Configurar o 911' tdsModel='Todos os modelos 911' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=911' link2='https://www.porsche.com/brazil/pt/models/911/'/>
                 </div>
                 
-                <div className='ml-72 mx-2 my-2 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo={LogoTaycan} imagem={ModeloTaycan}/>   
+                <div className='ml-72 mx-2 my-2'>
+                    <Modelos modelo={LogoTaycan} imagem={ModeloTaycan} descrição='Sedan esportivo totalmente elétrico com porta-malas dianteiro e traseiro.' config='Configurar o Taycan' tdsModel='Todos os modelos Taycan' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=taycan' link2='https://www.porsche.com/brazil/pt/models/taycan/taycan-models/'/>   
                 </div>
                 
-                <div className='mr-72 mx-2 my-2 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo={LogoPanamera} imagem={ModeloPanamera}/>
+                <div className='mr-72 mx-2 my-2'>
+                    <Modelos modelo={LogoPanamera} imagem={ModeloPanamera} descrição='Sedan esportivo de luxo com quatro lugares.' config='Configurar o Panamera' tdsModel='Todos os modelos Panamera' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=panamera' link2='https://www.porsche.com/brazil/pt/models/panamera/panamera-models/'/>
                 </div>
 
-                <div className='ml-72 mx-2 my-2 hover:opacity-90 transition-opacity '>
-                    <Modelos modelo={LogoMacan} imagem={ModeloMacan}/>
+                <div className='ml-72 mx-2 my-2'>
+                    <Modelos modelo={LogoMacan} imagem={ModeloMacan} descrição='SUV compacto com alta versatilidade.' config='Configurar o Macan' tdsModel='Todos os modelos Macan' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=macan' link2='https://www.porsche.com/brazil/pt/models/macan/macan-electric-models/'/>
                 </div>
 
-                <div className='mr-72 mx-2 my-2 hover:opacity-90 transition-opacity'>
-                    <Modelos modelo={LogoCayenne} imagem={ModeloCayenne}/>
+                <div className='mr-72 mx-2 my-2'>
+                    <Modelos modelo={LogoCayenne} imagem={ModeloCayenne} descrição='SUV com até 5 assentos, mas antes de tudo, um carro esportivo.' config='Configurar o Cayenne' tdsModel='Todos os modelos Cayenne' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=cayenne' link2='https://www.porsche.com/brazil/pt/models/cayenne/'/>
                 </div>
             </div>
         
