@@ -13,8 +13,6 @@ const Main = ({ modelo, imagem}: Mainprops) => {
             <div className='absolute inset-0 flex items-center justify-center'>
                 <p className='mt-56 text-xl font-semibold text-white'>{modelo}</p>
             </div>
-            
-
         </div>    
         
     )

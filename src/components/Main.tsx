@@ -15,6 +15,16 @@ import LogoTaycan from '../../public/LogoTyacan.png'
 import LogoPanamera from '../../public/LogoPanamera.png'
 import LogoMacan from '../../public/LogoMacan.png'
 import LogoCayenne from '../../public/LogoCayenne.png'
+import Insta from '@/components/Insta'
+import Insta2 from '@/components/Insta2'
+import GT3RS from '../../public/GT3RS.jpg'
+import CarreraGt from '../../public/CarreraGt.jpg'
+import Carrera72 from '../../public/CarreraEspecial.jpg'
+import Turbo from '../../public/TurboSfav.jpg'
+import Spyder918 from  '../../public/918Spyder.jpg'
+import GT4 from '../../public/GT4RS.jpg'
+import TurboGt from '../../public/TurboGt.jpg'
+
 
 
 
@@ -64,6 +74,24 @@ export default function Main() {
 
                 <div className='mr-72 mx-2 my-2'>
                     <Modelos modelo={LogoCayenne} imagem={ModeloCayenne} descrição='SUV com até 5 assentos, mas antes de tudo, um carro esportivo.' config='Configurar o Cayenne' tdsModel='Todos os modelos Cayenne' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=cayenne' link2='https://www.porsche.com/brazil/pt/models/cayenne/'/>
+                </div>
+            </div>
+
+            <div className='flex items-center a bg-white'>
+                <h2 className='text-5xl m-auto mt-32 mb-24 font-semibold text-black '>...</h2>
+            </div>
+
+            <div className='flex bg-white mb-32 items-center justify-center'>
+                <div className="m-2 w-[28rem]">
+                    <Insta modelo={Spyder918} modelo2={Turbo} modelo3={TurboGt} />
+                </div>
+
+                <div className="m-2 w-[28rem]">
+                    <Insta2 modelo={GT4} modelo2={GT4} modelo3={CarreraGt} />
+                </div>
+
+                <div className="m-2 w-[28rem]">
+                    <Insta modelo={GT3RS} modelo2={Carrera72} modelo3={GT3RS} />
                 </div>
             </div>
         
