@@ -10,7 +10,7 @@ export default function () {
         <>
             <header className='relative'>
                 <div className='relative bg-white'>
-                    <Image className='object-cover w-full h-full -z-10 rounded-b-lg' src={Porsche} alt='' />
+                    <Image className='object-cover w-full h-full -z-10 rounded-b-lg' src={Porsche} alt='Imagem Principal' />
                 </div>
 
                 <nav className='absolute top-0 left-0 flex items-center h-20 w-full z-10'>
@@ -19,7 +19,7 @@ export default function () {
                     </div> */}
 
                     <div className='mx-auto'>
-                        <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10' src={LogoPorsche} alt='' width={200}/></a>  
+                        <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10' src={LogoPorsche} alt='Logo Porsche' width={200}/></a>  
                     </div>   
                 </nav>
 

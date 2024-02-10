@@ -14,9 +14,9 @@ const Modelos = ({ modelo, imagem, descrição, config, tdsModel, link, link2}: 
     return (
        
         <div className='relative'>
-            <Image className='rounded-xl h-[50rem] object-cover' src={imagem} alt='Carro Eletrico' />
+            <Image className='rounded-xl h-[50rem] object-cover' src={imagem} alt='Modelos Principais da Porsche' />
             
-            <Image className='absolute -top-5 left-5 z-10 flex items-center invert' src={modelo} alt='' width={180}/>
+            <Image className='absolute -top-5 left-5 z-10 flex items-center invert' src={modelo} alt='Nome do Modelo' width={180}/>
 
             <div className='absolute top-96 mt-48'>
                 <p className='text-white text-3xl mx-5'>{descrição}</p>

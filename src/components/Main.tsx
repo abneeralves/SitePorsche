@@ -19,17 +19,17 @@ import Insta from '@/components/InstaGrid'
 import Insta2 from '@/components/InstaGrid2'
 import Spyder918 from  '../../public/918Spyder.jpg'
 import GT1 from '../../public/GT1.jpg'
-import PorscheNeve from '../../public/PorscheNeve.jpg'
-import PorscheCarpet from '../../public/PorscheCarpet.jpg'
+import PorscheV from '../../public/PorscheV.jpg'
+import Porsche959 from '../../public/Porsche959.jpg'
 import PorscheBatman from '../../public/PorscheBatman.jpg'
 import CarreraGt from '../../public/CarreraGt.jpg'
-import Porsches from '../../public/Porsches.jpg'
+import Porsche959GT from '../../public/Porsche959GT.jpg'
 import GTs from '../../public/GTs.jpg'
 import PorscheBr from '../../public/PorscheBr.jpg'
 import PorscheTSD from '../../public/PorscheTSD.jpg'
 import PorscheFinder from '../../public/PorscheFinder.jpg'
 import PorscheE from '../../public/PorscheE.jpg'
-
+import Footer from '@/components/Footer'
 
 
 
@@ -37,17 +37,17 @@ export default function Main() {
     return (
 
         <>
-            <div id='meio' className="flex items-center align-center bg-white space-x-11 ">
+            <div id='meio' className="flex bg-white space-x-11 ">
                 <div className='ml-72'>
-                    <a className='hover:opacity-90 transition-opacity' href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="Estação de Recarga." imagem={Eletricos}/></a>
+                    <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="Estação de Recarga." imagem={Eletricos} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>
 
                 <div>
-                    <a className='hover:opacity-90 transition-opacity' href="https://www.porsche.com/brazil/pt/models/911/"><Destaques modelo="Os modelos 911." imagem={TurboS}/></a>
+                    <a href="https://www.porsche.com/brazil/pt/models/911/"><Destaques modelo="Os modelos 911." imagem={TurboS} link='https://www.porsche.com/brazil/pt/models/911/'/></a>
                 </div>
 
                 <div>
-                    <a className='hover:opacity-90 transition-opacity' href="https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/"><Destaques modelo="718 Spyder RS." imagem={Spyder}/></a>
+                    <a href="https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/"><Destaques modelo="718 Spyder RS." imagem={Spyder} link='https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/'/></a>
                 </div>    
             </div>  
 
@@ -87,15 +87,15 @@ export default function Main() {
 
             <div className='flex bg-white mb-32 items-center justify-center'>
                 <div className="m-2 w-[28rem]">
-                    <Insta modelo={Spyder918} modelo2={GTs} modelo3={PorscheNeve} />
+                    <Insta modelo={Spyder918} modelo2={GTs} modelo3={PorscheV} />
                 </div>
 
                 <div className="m-2 w-[28rem]">
-                    <Insta2 modelo={PorscheCarpet} modelo2={PorscheBr} modelo3={PorscheBatman} />
+                    <Insta2 modelo={Porsche959} modelo2={PorscheBr} modelo3={PorscheBatman} />
                 </div>
 
                 <div className="m-2 w-[28rem]">
-                    <Insta modelo={CarreraGt} modelo2={GT1} modelo3={Porsches} />
+                    <Insta modelo={CarreraGt} modelo2={GT1} modelo3={Porsche959GT} />
                 </div>
             </div>
 
@@ -105,17 +105,19 @@ export default function Main() {
 
             <div  className="flex items-center align-center bg-white space-x-11">
                 <div className='ml-72'>
-                    <a className='hover:opacity-90 transition-opacity' href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="E-Performance." imagem={PorscheE}/></a>
+                    <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="E-Performance." imagem={PorscheE} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>
 
                 <div>
-                    <a className='hover:opacity-90 transition-opacity' href="https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/"><Destaques modelo="Tequipment Sound & Design" imagem={PorscheTSD}/></a>
+                    <a href="https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/"><Destaques modelo="Tequipment Sound & Design" imagem={PorscheTSD} link='https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/'/></a>
                 </div>
 
                 <div>
-                    <a className='hover:opacity-90 transition-opacity' href="https://finder.porsche.com/br/pt-BR"><Destaques modelo="Porsche Finder" imagem={PorscheFinder}/></a>
+                    <a href="https://finder.porsche.com/br/pt-BR"><Destaques modelo="Porsche Finder" imagem={PorscheFinder} link='https://finder.porsche.com/br/pt-BR'/></a>
                 </div>    
             </div>  
+
+            <Footer />
         </>
         
     )

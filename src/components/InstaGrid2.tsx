@@ -11,7 +11,7 @@ const insta2 = ({ modelo, modelo2, modelo3 }: Mainprops) => {
         <>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 w-auto'>
                 <div className='relative'>
-                    <Image className='w-full object-cover' src={modelo} alt='' width={500} />
+                    <Image className='w-full object-cover' src={modelo} alt='Imagens do Instagram' width={500} />
 
                     <div className='absolute bottom-0 right-0 p-4 bg-gray-700 rounded-tl-md'>
                         <a href="https://www.instagram.com/porsche/"><svg 
@@ -26,7 +26,7 @@ const insta2 = ({ modelo, modelo2, modelo3 }: Mainprops) => {
                 </div>
 
                 <div className='relative'>
-                    <Image className='w-full object-cover' src={modelo2} alt='' width={500} />
+                    <Image className='w-full object-cover' src={modelo2} alt='Imagens do Instagram' width={500} />
 
                     <div className='absolute bottom-0 right-0 p-4 bg-gray-700 rounded-tl-md'>
                         <a href="https://www.instagram.com/porsche/"><svg 
@@ -41,7 +41,7 @@ const insta2 = ({ modelo, modelo2, modelo3 }: Mainprops) => {
                 </div>
 
                 <div className='md:col-span-2 relative'>
-                    <Image className='w-full h-full object-cover' src={modelo3} alt='' width={500}/>
+                    <Image className='w-full h-full object-cover' src={modelo3} alt='Imagens do Instagram' width={500}/>
 
                     <div className='absolute bottom-0 right-0 p-4 bg-gray-700 rounded-tl-md'>
                         <a href="https://www.instagram.com/porsche/"><svg 
