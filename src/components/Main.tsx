@@ -26,6 +26,9 @@ import CarreraGt from '../../public/CarreraGt.jpg'
 import Porsches from '../../public/Porsches.jpg'
 import GTs from '../../public/GTs.jpg'
 import PorscheBr from '../../public/PorscheBr.jpg'
+import PorscheTSD from '../../public/PorscheTSD.jpg'
+import PorscheFinder from '../../public/PorscheFinder.jpg'
+import PorscheE from '../../public/PorscheE.jpg'
 
 
 
@@ -48,7 +51,7 @@ export default function Main() {
                 </div>    
             </div>  
 
-            <div className='flex items-center a bg-white'>
+            <div className='flex items-center bg-white'>
                 <h1 className='text-5xl m-auto font-semibold text-black '>Modelos</h1>
             </div>
              
@@ -78,7 +81,7 @@ export default function Main() {
                 </div>
             </div>
 
-            <div className='flex items-center a bg-white'>
+            <div className='flex items-center bg-white'>
                 <h2 className='text-5xl m-auto mt-32 mb-24 font-semibold text-black '>Social Media Stories</h2>
             </div>
 
@@ -95,7 +98,24 @@ export default function Main() {
                     <Insta modelo={CarreraGt} modelo2={GT1} modelo3={Porsches} />
                 </div>
             </div>
-        
+
+            <div className='flex items-center bg-white -mt-32'>
+                <h3 className='text-5xl m-auto font-semibold text-black mt-40 '>Descubra</h3>
+            </div>
+
+            <div  className="flex items-center align-center bg-white space-x-11">
+                <div className='ml-72'>
+                    <a className='hover:opacity-90 transition-opacity' href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="E-Performance." imagem={PorscheE}/></a>
+                </div>
+
+                <div>
+                    <a className='hover:opacity-90 transition-opacity' href="https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/"><Destaques modelo="Tequipment Sound & Design" imagem={PorscheTSD}/></a>
+                </div>
+
+                <div>
+                    <a className='hover:opacity-90 transition-opacity' href="https://finder.porsche.com/br/pt-BR"><Destaques modelo="Porsche Finder" imagem={PorscheFinder}/></a>
+                </div>    
+            </div>  
         </>
         
     )
