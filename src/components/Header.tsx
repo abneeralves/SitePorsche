@@ -10,7 +10,11 @@ export default function () {
         <>
             <header className='relative'>
                 <div className='relative bg-white'>
-                    <Image className='object-cover w-full h-full -z-10 rounded-b-lg' src={Porsche} alt='Imagem Principal' />
+                    {/* <Image className='object-cover w-full h-full -z-10 rounded-b-lg' src={Porsche} alt='Imagem Principal' /> */}
+                    <video className='object-cover w-full h-full -z-10 rounded-b-lg' width="320" height="240" autoPlay loop muted>
+                        <source src={'GT3rsVideo.mp4'} type="video/mp4" />
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
                 </div>
 
                 <nav className='absolute top-0 left-0 flex items-center h-20 w-full z-10'>
@@ -19,7 +23,7 @@ export default function () {
                     </div> */}
 
                     <div className='mx-auto'>
-                        <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10' src={LogoPorsche} alt='Logo Porsche' width={200}/></a>  
+                        <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10 invert' src={LogoPorsche} alt='Logo Porsche' width={200}/></a>  
                     </div>   
                 </nav>
 
@@ -29,7 +33,7 @@ export default function () {
                         <br />essense.</p> 
                     </div>
                     <div className='-ml-44 -mt-10'>
-                        <a href="https://www.porsche.com/brazil/pt/"><p className='flex items-center justify-center border-2 w-64 text-xl p-2 -ml-96 mb-96 rounded font-medium hover:backdrop-blur transition duration-100'>Site oficial da Porsche.</p></a>
+                        <a href="https://www.porsche.com/brazil/pt/"><p className='flex items-center justify-center border-2 w-64 text-xl p-2 -ml-96 mb-96 rounded font-medium hover:backdrop-blur-xl transition duration-100'>Site oficial da Porsche.</p></a>
                     </div>
                     
                 </div>
