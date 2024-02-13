@@ -30,14 +30,15 @@ import PorscheTSD from '../../public/PorscheTSD.jpg'
 import PorscheFinder from '../../public/PorscheFinder.jpg'
 import PorscheE from '../../public/PorscheE.jpg'
 import Footer from '@/components/Footer'
+import { Open_Sans } from 'next/font/google'
 
-
+const OpenS = Open_Sans({subsets: ['latin']})
 
 export default function Main() {
     return (
 
         <>
-            <div id='meio' className="flex bg-white space-x-11 ">
+            <div id='meio' className="flex space-x-11 ">
                 <div className='ml-72'>
                     <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="Estação de Recarga." imagem={Eletricos} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>
@@ -51,11 +52,11 @@ export default function Main() {
                 </div>    
             </div>  
 
-            <div className='flex items-center bg-white'>
-                <h1 className='text-5xl m-auto font-semibold text-black '>Modelos</h1>
+            <div className='flex items-center'>
+                <h1 className={`text-5xl m-auto font-semibold text-black ${OpenS.className}`}>Modelos</h1>
             </div>
              
-            <div className='grid grid-cols-2 gap-4  bg-white'>
+            <div className='grid grid-cols-2 gap-4 '>
                 <div className='relative ml-72 mx-2 my-2 mt-20'>
                     <Modelos modelo={LogoCayman} imagem={Modelo718} descrição='Dois Lugares com alta dinâmica de condução graçãs ao seu motor central.' config='Configurar o 718' tdsModel='Todos os modelos 718' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=718' link2='https://www.porsche.com/brazil/pt/models/718/'/>
                 </div>
@@ -81,11 +82,11 @@ export default function Main() {
                 </div>
             </div>
 
-            <div className='flex items-center bg-white'>
-                <h2 className='text-5xl m-auto mt-32 mb-24 font-semibold text-black '>Social Media Stories</h2>
+            <div className='flex items-center'>
+                <h2 className={`text-5xl m-auto mt-32 mb-24 font-semibold text-black ${OpenS.className}`}>Social Media Stories</h2>
             </div>
 
-            <div className='flex bg-white mb-32 items-center justify-center'>
+            <div className='flex mb-32 items-center justify-center'>
                 <div className="m-2 w-[28rem]">
                     <Insta modelo={Spyder918} modelo2={GTs} modelo3={PorscheV} />
                 </div>
@@ -99,11 +100,11 @@ export default function Main() {
                 </div>
             </div>
 
-            <div className='flex items-center bg-white -mt-32'>
-                <h3 className='text-5xl m-auto font-semibold text-black mt-40 '>Descubra</h3>
+            <div className='flex items-center -mt-32'>
+                <h3 className={`text-5xl m-auto font-semibold text-black mt-40 ${OpenS.className}`}>Descubra</h3>
             </div>
 
-            <div  className="flex items-center align-center bg-white space-x-11">
+            <div  className="flex items-center align-center space-x-11">
                 <div className='ml-72'>
                     <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="E-Performance." imagem={PorscheE} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>

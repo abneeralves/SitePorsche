@@ -7,27 +7,27 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-black">
-                <div className="ml-28 my-11">
-                    <h4 className="text-2xl font-semibold">Região / Idioma Atual</h4>
+                <div className="ml-28 mb-11">
+                    <h4 className="text-2xl font-semibold text-white mb-2">Região / Idioma Atual</h4>
 
                     <div className='flex items-center'>
                         <Image src={Brasil} alt='Bandeira Do Brasil' width={40} className='mt-2 -ml-1'/>
-                        <p className='text-md  mt-2 ml-2'>Brasil / Português</p>
+                        <p className='text-md mt-2 ml-2 text-white'>Brasil / Português</p>
                     </div>
                 </div>
 
                 <div className="flex">
 
                     <div className="ml-28">
-                        <h4 className="text-2xl font-semibold">Contato</h4>
-                        <p>Perguntas?</p>
+                        <h4 className="text-2xl font-semibold text-white">Contato</h4>
+                        <p className='text-white'>Perguntas?</p>
 
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/showrooms/contact/" target="_blank" rel="noopener noreferrer"><p className="flex items-center justify-center rounded bg-white text-black mt-5 h-11 w-64 font-medium hover:opacity-50 transition-opacity">Formulário de Contato</p></a>
                     </div>
 
                     <div className="ml-32">
-                        <h4 className="text-2xl font-semibold">Redes Sociais</h4>
-                        <p>Entre em contato conosco através das mídias sociais.</p>
+                        <h4 className="text-2xl font-semibold text-white">Redes Sociais</h4>
+                        <p className='text-white'>Entre em contato conosco através das mídias sociais.</p>
 
                         <div className="flex">
                             <a href="https://web.facebook.com/porsche/?_rdc=1&_rdr">
@@ -99,24 +99,24 @@ export default function Footer() {
 
                 <div className="flex">
                     <div className="ml-28 mt-20">
-                        <h4 className="text-2xl font-semibold">Empresa</h4>
+                        <h4 className="text-2xl font-semibold text-white">Empresa</h4>
 
                         <div className='mt-5'>
-                            <a href="https://www.porsche.com/brazil/pt/aboutporsche/overview/"><p className='hover:text-red-500 '>Porsche num Relance</p></a>
-                            <a href="https://www.porsche.com/brazil/pt/aboutporsche/jobs/"><p className='hover:text-red-500 '>Empregos & Carreira</p></a>
-                            <a href="https://press.pbr.porsche.com/prod/presse_pag/PressBasicData.nsf/press/PLAptWelcome0?OpenDocument"><p className='hover:text-red-500 '>Imprensa</p></a>
+                            <a href="https://www.porsche.com/brazil/pt/aboutporsche/overview/"><p className='hover:text-red-500 text-white'>Porsche num Relance</p></a>
+                            <a href="https://www.porsche.com/brazil/pt/aboutporsche/jobs/"><p className='hover:text-red-500 text-white'>Empregos & Carreira</p></a>
+                            <a href="https://press.pbr.porsche.com/prod/presse_pag/PressBasicData.nsf/press/PLAptWelcome0?OpenDocument"><p className='hover:text-red-500 text-white'>Imprensa</p></a>
                         </div>
                     </div>
 
                     <div className="ml-60 mt-32">
-                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/"><p className='hover:text-red-500 '>Porsche Brasil</p></a>
-                        <a href="https://www.porsche.com/brazil/pt/motorsportandevents/#from=/brazil/pt/motorsportandevents/porschepartnerforum/"><p className='hover:text-red-500 '>Patner Forum</p></a>
-                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/showrooms/contact/"><p className='hover:text-red-500'>Contatos</p></a>
+                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/"><p className='hover:text-red-500 text-white'>Porsche Brasil</p></a>
+                        <a href="https://www.porsche.com/brazil/pt/motorsportandevents/#from=/brazil/pt/motorsportandevents/porschepartnerforum/"><p className='hover:text-red-500 text-white'>Patner Forum</p></a>
+                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/showrooms/contact/"><p className='hover:text-red-500 text-white'>Contatos</p></a>
                     </div>
 
                     <div className="ml-60 mt-32">
-                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/responsibility/"><p className='hover:text-red-500 '>Sustentabilidade</p></a>
-                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/service/"><p className='hover:text-red-500'>Subsidiárias</p></a>
+                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/responsibility/"><p className='hover:text-red-500 text-white'>Sustentabilidade</p></a>
+                        <a href="https://www.porsche.com/brazil/pt/aboutporsche/service/"><p className='hover:text-red-500 text-white'>Subsidiárias</p></a>
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@ export default function Footer() {
                 </div>
 
                 <div className='flex flex-col items-center justify-center'>
-                    <a href="https://www.porsche.com/brazil/pt/"><p className='font-medium text-lg'>Site não Oficial. Todos os direito reservado a</p></a>
+                    <a href="https://www.porsche.com/brazil/pt/"><p className='font-medium text-lg text-white'>Site não Oficial. Todos os direito reservado a</p></a>
                     <a href="https://www.porsche.com/brazil/pt/"><Image src={LogoPorsche} alt='Logo Porsche' width={200} className='invert -mt-5'/></a>
                 </div> 
             </footer>
