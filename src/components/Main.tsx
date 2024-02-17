@@ -38,16 +38,16 @@ export default function Main() {
     return (
 
         <>
-            <div id='meio' className="flex space-x-11 ">
-                <div className='ml-72'>
+            <div id='meio' className="flex min-w-md">
+                <div className='m-5 xl:ml-72'>
                     <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="Estação de Recarga." imagem={Eletricos} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>
 
-                <div>
+                <div className='m-5'>
                     <a href="https://www.porsche.com/brazil/pt/models/911/"><Destaques modelo="Os modelos 911." imagem={TurboS} link='https://www.porsche.com/brazil/pt/models/911/'/></a>
                 </div>
 
-                <div>
+                <div className='m-5 xl:mr-72 '>
                     <a href="https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/"><Destaques modelo="718 Spyder RS." imagem={Spyder} link='https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/'/></a>
                 </div>    
             </div>  
@@ -56,7 +56,7 @@ export default function Main() {
                 <h1 className={`text-5xl m-auto font-semibold text-black ${OpenS.className}`}>Modelos</h1>
             </div>
              
-            <div className='grid grid-cols-2 gap-4 '>
+            <div className='grid grid-cols-2 gap-4'>
                 <div className='relative ml-72 mx-2 my-2 mt-20'>
                     <Modelos modelo={LogoCayman} imagem={Modelo718} descrição='Dois Lugares com alta dinâmica de condução graçãs ao seu motor central.' config='Configurar o 718' tdsModel='Todos os modelos 718' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=718' link2='https://www.porsche.com/brazil/pt/models/718/'/>
                 </div>
@@ -91,7 +91,7 @@ export default function Main() {
                     <Insta modelo={Spyder918} modelo2={GTs} modelo3={PorscheV} />
                 </div>
 
-                <div className="m-2 w-[28rem]">
+                <div className="m-2 w-[28rem] sm:hidden lg:flex">
                     <Insta2 modelo={Porsche959} modelo2={PorscheBr} modelo3={PorscheBatman} />
                 </div>
 
@@ -104,16 +104,16 @@ export default function Main() {
                 <h3 className={`text-5xl m-auto font-semibold text-black mt-40 ${OpenS.className}`}>Descubra</h3>
             </div>
 
-            <div  className="flex items-center align-center space-x-11">
-                <div className='ml-72'>
+            <div  className="flex xl:min-w-md">
+                <div className='m-5 2xl:ml-72'>
                     <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="E-Performance." imagem={PorscheE} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>
 
-                <div>
+                <div className='m-5'>
                     <a href="https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/"><Destaques modelo="Tequipment Sound & Design" imagem={PorscheTSD} link='https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/'/></a>
                 </div>
 
-                <div>
+                <div className='m-5 2xl:mr-72'>
                     <a href="https://finder.porsche.com/br/pt-BR"><Destaques modelo="Porsche Finder" imagem={PorscheFinder} link='https://finder.porsche.com/br/pt-BR'/></a>
                 </div>    
             </div>  

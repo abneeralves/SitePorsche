@@ -29,18 +29,18 @@ export default function () {
 
                 <div className='absolute flex items-center h-20 w-full z-10'>
                     <div className='mb-96 -mt-32'>
-                        <p className={`text-white mb-96 text-9xl ml-44 ${OpenS.className}`}>Keep your 
+                        <p className={`text-white 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl sm:text-5xl sm:mb-0 sm:ml-11 ${OpenS.className}`}>Keep your 
                         <br />essense.</p> 
                     </div>
-                    <div className='-ml-44 -mt-10'>
-                        <a href="https://www.porsche.com/brazil/pt/"><p className='flex items-center justify-center border-2 w-64 text-white text-xl p-2 -ml-[26rem] -mt-72 rounded font-medium hover:backdrop-blur-xl transition duration-100'>Site oficial da Porsche.</p></a>
+                    <div className='2xl:-ml-44 2xl:-mt-10 xl:mt-10 xl:-ml-7 lg:ml-20 md:mt-56 md:ml-32 sm:mt-56 sm:ml-48'>
+                        <a href="https://www.porsche.com/brazil/pt/"><p className='flex items-center justify-center border-2 xl:w-64 text-white text-xl p-2 -ml-[26rem] -mt-72 rounded font-medium hover:backdrop-blur-xl transition duration-100 md:w-56 sm:w-60'>Site oficial da Porsche.</p></a>
                     </div>
                     
                 </div>
 
-                <div className='absolute flex items-center h-20 w-full z-10'>
+                <div className='absolute flex items-center h-20 w-full z-10 sm:hidden md:flex'>
                     <div className='mx-auto'>
-                        <div className='hover:bg-zinc-950 hover:opacity-70 transition duration-300 p-3 h-14 mb-72 rounded-lg pt-3'>
+                        <div className='hover:bg-zinc-950 hover:opacity-70 transition duration-300 p-3 h-14 mb-72 rounded-lg pt-3 '>
                         <a href="#meio" className=''><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="animate-bounce text-white mb-72 w-8 h-8">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                         </svg>
