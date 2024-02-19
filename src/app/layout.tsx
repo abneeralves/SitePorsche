@@ -16,7 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html className="bg-white" lang="PT-br">
-      <body className=''>{children}</body>
+      <body className={inter.className}>{children}</body>
+      <link rel="shortcut icon" href="IconePorsche.png" type="image/x-icon" />
     </html>
   );
 }

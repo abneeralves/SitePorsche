@@ -16,7 +16,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="flex">
+                <div className="flex flex-col md:flex-col lg:flex-row">
 
                     <div className="ml-28 sm:ml-20">
                         <h4 className="text-2xl font-semibold text-white">Contato</h4>
@@ -25,7 +25,7 @@ export default function Footer() {
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/showrooms/contact/" target="_blank" rel="noopener noreferrer"><p className="flex items-center justify-center rounded bg-white text-black mt-5 h-11 w-64 font-medium hover:opacity-50 transition-opacity">Formulário de Contato</p></a>
                     </div>
 
-                    <div className="ml-32 sm:hidden md:block">
+                    <div className=" sm:mt-11 sm:ml-20 lg:mt-0">
                         <h4 className="text-2xl font-semibold text-white">Redes Sociais</h4>
                         <p className='text-white'>Entre em contato conosco através das mídias sociais.</p>
 
@@ -108,13 +108,13 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div className="mt-32 sm:ml-11 md:ml-56">
+                    <div className="mt-32 sm:ml-20 lg:ml-56">
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/"><p className='hover:text-red-500 text-white'>Porsche Brasil</p></a>
                         <a href="https://www.porsche.com/brazil/pt/motorsportandevents/#from=/brazil/pt/motorsportandevents/porschepartnerforum/"><p className='hover:text-red-500 text-white'>Patner Forum</p></a>
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/showrooms/contact/"><p className='hover:text-red-500 text-white'>Contatos</p></a>
                     </div>
 
-                    <div className="mt-32 sm:ml-11 md:ml-56">
+                    <div className="mt-32 sm:ml-20 lg:ml-56">
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/responsibility/"><p className='hover:text-red-500 text-white'>Sustentabilidade</p></a>
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/service/"><p className='hover:text-red-500 text-white'>Subsidiárias</p></a>
                     </div>
