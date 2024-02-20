@@ -10,7 +10,7 @@ export default function () {
         <>
             <header className='relative'>
                 <div className='relative bg-white'>
-                    {/* <Image className='object-cover w-full h-full -z-10 rounded-b-lg' src={Porsche} alt='Imagem Principal' /> */}
+
                     <video className='object-cover w-full h-full -z-10 rounded-b-lg' width="320" height="240" autoPlay loop muted>
                         <source src={'GT3rsVideo.mp4'} type="video/mp4" />
                         Seu navegador não suporta a tag de vídeo.
@@ -29,16 +29,16 @@ export default function () {
 
                 <div className='absolute flex items-center h-20 w-full z-10'>
                     <div className='mb-96 -mt-32'>
-                        <p className={`text-white 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl sm:text-5xl sm:mb-0 sm:ml-11 ${OpenS.className}`}>Keep your 
+                        <p className={`text-white text-3xl ml-11 mt-64 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl md:mt-0 sm:text-5xl sm:mb-0 sm:ml-11 sm:mt-11 ${OpenS.className}`}>Keep your 
                         <br />essense.</p> 
                     </div>
                     <div className='2xl:-ml-44 2xl:-mt-10 xl:mt-10 xl:-ml-7 lg:ml-20 md:mt-56 md:ml-32 sm:mt-56 sm:ml-48'>
-                        <a href="https://www.porsche.com/brazil/pt/"><p className='flex items-center justify-center border-2 xl:w-64 text-white text-xl p-2 -ml-[26rem] -mt-72 rounded font-medium hover:backdrop-blur-xl transition duration-100 md:w-56 sm:w-60'>Site oficial da Porsche.</p></a>
+                        <a href="https://www.porsche.com/brazil/pt/"><p className='sm:flex items-center justify-center sm:border-2 hidden xl:w-64 text-white text-xl p-2 sm:-ml-[26rem] sm:-mt-72 rounded font-medium hover:backdrop-blur-xl transition duration-100 md:w-72 sm:w-60'>Site oficial da Porsche.</p></a>
                     </div>
                     
                 </div>
 
-                <div className='absolute flex items-center h-20 w-full z-10 sm:hidden md:flex'>
+                <div className='md:absolute md:items-center h-20 w-full z-10 hidden md:flex'>
                     <div className='mx-auto'>
                         <div className='hover:bg-zinc-950 hover:opacity-70 transition duration-300 p-3 h-14 mb-72 rounded-lg pt-3 '>
                         <a href="#meio" className=''><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="animate-bounce text-white mb-72 w-8 h-8">

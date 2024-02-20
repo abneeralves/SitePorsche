@@ -38,16 +38,16 @@ export default function Main() {
     return (
 
         <main>
-            <div id='meio' className="flex min-w-xl">
-                <div className='m-5 ml-auto'>
+            <div id='meio' className="sm:flex min-w-xl">
+                <div className='sm:m-5 ml-auto flex align-center justify-center sm:ml-auto'>
                     <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="Estação de Recarga." imagem={Eletricos} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>
 
-                <div className='m-5'>
+                <div className='sm:m-5 flex align-center justify-center -mt-56 '>
                     <a href="https://www.porsche.com/brazil/pt/models/911/"><Destaques modelo="Os modelos 911." imagem={TurboS} link='https://www.porsche.com/brazil/pt/models/911/'/></a>
                 </div>
 
-                <div className='m-5 mr-auto'>
+                <div className='sm:m-5 mr-auto flex align-center justify-center -mt-56 sm:mr-auto'>
                     <a href="https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/"><Destaques modelo="718 Spyder RS." imagem={Spyder} link='https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/'/></a>
                 </div>    
             </div>  
@@ -91,11 +91,11 @@ export default function Main() {
                     <Insta modelo={Spyder918} modelo2={GTs} modelo3={PorscheV} />
                 </div>
 
-                <div className="m-2 w-[28rem] sm:hidden lg:flex">
+                <div className="m-2 w-[28rem] hidden xl:flex">
                     <Insta2 modelo={Porsche959} modelo2={PorscheBr} modelo3={PorscheBatman} />
                 </div>
 
-                <div className="m-2 w-[28rem]">
+                <div className="m-2 w-[28rem] hidden md:flex">
                     <Insta modelo={CarreraGt} modelo2={GT1} modelo3={Porsche959GT} />
                 </div>
             </div>
@@ -104,16 +104,16 @@ export default function Main() {
                 <h3 className={`text-5xl m-auto font-semibold text-black mt-40 ${OpenS.className}`}>Descubra</h3>
             </div>
 
-            <div  className="flex xl:min-w-md">
-                <div className='m-5 2xl:ml-72'>
+            <div  className="sm:flex min-w-xl">
+                <div className='sm:m-5 ml-auto flex align-center justify-center sm:ml-auto'>
                     <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="E-Performance." imagem={PorscheE} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
                 </div>
 
-                <div className='m-5'>
+                <div className='sm:m-5 flex align-center justify-center -mt-56'>
                     <a href="https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/"><Destaques modelo="Tequipment Sound & Design" imagem={PorscheTSD} link='https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/'/></a>
                 </div>
 
-                <div className='m-5 2xl:mr-72'>
+                <div className='sm:m-5 flex align-center justify-center -mt-56 sm:mr-auto'>
                     <a href="https://finder.porsche.com/br/pt-BR"><Destaques modelo="Porsche Finder" imagem={PorscheFinder} link='https://finder.porsche.com/br/pt-BR'/></a>
                 </div>    
             </div>  

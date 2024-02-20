@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-black">
-                <div className="ml-28 mb-11 sm:ml-20">
+                <div className="sm:ml-20 mb-11 ml-5">
                     <h4 className="text-2xl font-semibold text-white mb-2">Região / Idioma Atual</h4>
 
                     <div className='flex items-center'>
@@ -18,14 +18,14 @@ export default function Footer() {
 
                 <div className="flex flex-col md:flex-col lg:flex-row">
 
-                    <div className="ml-28 sm:ml-20">
+                    <div className="sm:ml-20 mb-11 ml-5">
                         <h4 className="text-2xl font-semibold text-white">Contato</h4>
                         <p className='text-white'>Perguntas?</p>
 
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/showrooms/contact/" target="_blank" rel="noopener noreferrer"><p className="flex items-center justify-center rounded bg-white text-black mt-5 h-11 w-64 font-medium hover:opacity-50 transition-opacity">Formulário de Contato</p></a>
                     </div>
 
-                    <div className=" sm:mt-11 sm:ml-20 lg:mt-0">
+                    <div className=" sm:mt-11 sm:ml-20 lg:mt-0 ml-5 ">
                         <h4 className="text-2xl font-semibold text-white">Redes Sociais</h4>
                         <p className='text-white'>Entre em contato conosco através das mídias sociais.</p>
 
@@ -51,7 +51,7 @@ export default function Footer() {
                             </svg></p></a>
 
                             <a href="https://br.pinterest.com/porsche/">
-                            <p className="flex items-center justify-center rounded bg-white text-black mt-5 h-11 w-14 mr-3 hover:opacity-50 transition-opacity"><svg
+                            <p className="sm:flex items-center justify-center rounded bg-white text-black mt-5 h-11 w-14 mr-3 hover:opacity-50 transition-opacity hidden"><svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
                                 fill="currentColor"
@@ -83,7 +83,7 @@ export default function Footer() {
                             </svg></p></a>
 
                             <a href="https://www.linkedin.com/company/porsche-ag">
-                            <p className="flex items-center justify-center rounded bg-white text-black mt-5 h-11 w-14 mr-3 hover:opacity-50 transition-opacity"><svg
+                            <p className="sm:flex items-center justify-center rounded bg-white text-black mt-5 h-11 w-14 mr-3 hover:opacity-50 transition-opacity hidden"><svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
                                 fill="currentColor"
@@ -98,7 +98,7 @@ export default function Footer() {
                 </div>
 
                 <div className="flex">
-                    <div className="ml-28 mt-20 sm:ml-20">
+                    <div className="mt-20 sm:ml-20 ml-5">
                         <h4 className="text-2xl font-semibold text-white">Empresa</h4>
 
                         <div className='mt-5'>
@@ -108,13 +108,13 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div className="mt-32 sm:ml-20 lg:ml-56">
+                    <div className="mt-32 sm:ml-20 lg:ml-56 ml-5">
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/"><p className='hover:text-red-500 text-white'>Porsche Brasil</p></a>
                         <a href="https://www.porsche.com/brazil/pt/motorsportandevents/#from=/brazil/pt/motorsportandevents/porschepartnerforum/"><p className='hover:text-red-500 text-white'>Patner Forum</p></a>
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/porschebrasil/showrooms/contact/"><p className='hover:text-red-500 text-white'>Contatos</p></a>
                     </div>
 
-                    <div className="mt-32 sm:ml-20 lg:ml-56">
+                    <div className="mt-32 sm:ml-20 lg:ml-56 ml-5 mr-5 hidden sm:block">
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/responsibility/"><p className='hover:text-red-500 text-white'>Sustentabilidade</p></a>
                         <a href="https://www.porsche.com/brazil/pt/aboutporsche/service/"><p className='hover:text-red-500 text-white'>Subsidiárias</p></a>
                     </div>
