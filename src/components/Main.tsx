@@ -57,27 +57,27 @@ export default function Main() {
             </div>
              
             <div className='grid xl:grid-cols-2 gap-4 sm:grid-cols-1'>
-                <div className='xl:ml-auto xl:mx-2 my-2 mt-20 w-[625px] sm:mr-auto sm:ml-auto'>
+                <div className='ml-auto mr-auto xl:mx-2 my-2 w-96 xl:ml-auto mt-20 sm:w-[625px] sm:mr-auto sm:ml-auto'>
                     <Modelos modelo={LogoCayman} imagem={Modelo718} descrição='Dois Lugares com alta dinâmica de condução graçãs ao seu motor central.' config='Configurar o 718' tdsModel='Todos os modelos 718' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=718' link2='https://www.porsche.com/brazil/pt/models/718/'/>
                 </div>
 
-                <div className='xl:mr-72 xl:mx-2 my-2 xl:mt-20 w-[625px] sm:mr-auto sm:ml-auto sm:mt-0'>
+                <div className='ml-auto mr-auto w-96 xl:mr-72 xl:mx-2 my-2 xl:mt-20 sm:w-[625px] sm:mr-auto sm:ml-auto sm:mt-0'>
                     <Modelos modelo={LogoCarrera} imagem={Modelo911} descrição='Carro esportivo com motor montado na traseira e desempenho superios.' config='Configurar o 911' tdsModel='Todos os modelos 911' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=911' link2='https://www.porsche.com/brazil/pt/models/911/'/>
                 </div>
                 
-                <div className='xl:ml-auto xl:mx-2 my-2 w-[625px] sm:mr-auto sm:ml-auto'>
+                <div className='ml-auto mr-auto w-96 xl:ml-auto xl:mx-2 my-2 sm:w-[625px] sm:mr-auto sm:ml-auto'>
                     <Modelos modelo={LogoTaycan} imagem={ModeloTaycan} descrição='Sedan esportivo totalmente elétrico com porta-malas dianteiro e traseiro.' config='Configurar o Taycan' tdsModel='Todos os modelos Taycan' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=taycan' link2='https://www.porsche.com/brazil/pt/models/taycan/taycan-models/'/>   
                 </div>
                 
-                <div className='xl:mr-72 xl:mx-2 my-2 w-[625px] sm:mr-auto sm:ml-auto'>
+                <div className='ml-auto mr-auto w-96 xl:mr-72 xl:mx-2 my-2 sm:w-[625px] sm:mr-auto sm:ml-auto'>
                     <Modelos modelo={LogoPanamera} imagem={ModeloPanamera} descrição='Sedan esportivo de luxo com quatro lugares.' config='Configurar o Panamera' tdsModel='Todos os modelos Panamera' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=panamera' link2='https://www.porsche.com/brazil/pt/models/panamera/panamera-models/'/>
                 </div>
 
-                <div className='xl:ml-auto xl:mx-2 my-2 w-[625px] sm:mr-auto sm:ml-auto'>
+                <div className='ml-auto mr-auto w-96 xl:ml-auto xl:mx-2 my-2 sm:w-[625px] sm:mr-auto sm:ml-auto'>
                     <Modelos modelo={LogoMacan} imagem={ModeloMacan} descrição='SUV compacto com alta versatilidade.' config='Configurar o Macan' tdsModel='Todos os modelos Macan' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=macan' link2='https://www.porsche.com/brazil/pt/models/macan/macan-electric-models/'/>
                 </div>
 
-                <div className='xl:mr-72 xl:mx-2 my-2 w-[625px] sm:mr-auto sm:ml-auto'>
+                <div className='ml-auto mr-auto w-96 xl:mr-72 xl:mx-2 my-2 sm:w-[625px] sm:mr-auto sm:ml-auto'>
                     <Modelos modelo={LogoCayenne} imagem={ModeloCayenne} descrição='SUV com até 5 assentos, mas antes de tudo, um carro esportivo.' config='Configurar o Cayenne' tdsModel='Todos os modelos Cayenne' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=cayenne' link2='https://www.porsche.com/brazil/pt/models/cayenne/'/>
                 </div>
             </div>

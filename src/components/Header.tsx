@@ -22,9 +22,13 @@ export default function () {
                         <h1 className='text-black ml-10 m-5 z-10'>Menu</h1>
                     </div> */}
 
-                    <div className='mx-auto'>
+                    <div className='mx-auto hidden md:flex'>
                         <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10 invert' src={LogoPorsche} alt='Logo Porsche' width={200}/></a>  
-                    </div>   
+                    </div>
+
+                    <div className='mx-auto md:hidden'>
+                        <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10 -mt-9 sm:mt-2 sm:w-[40px]' src={vectorP} alt='Logo Porsche' width={30}/></a>  
+                    </div>     
                 </nav>
 
                 <div className='absolute flex items-center h-20 w-full z-10'>
