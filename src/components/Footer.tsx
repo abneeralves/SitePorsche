@@ -125,7 +125,6 @@ export default function Footer() {
                 </div>
 
                 <div className='flex flex-col items-center justify-center'>
-                    <a href="https://www.porsche.com/brazil/pt/"><p className='font-medium text-lg text-white'>Site não Oficial. Todos os direito reservado a</p></a>
                     <a href="https://www.porsche.com/brazil/pt/"><Image src={LogoPorsche} alt='Logo Porsche' width={200} className='invert -mt-5'/></a>
                 </div> 
             </footer>
