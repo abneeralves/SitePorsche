@@ -7,7 +7,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/abneeralves/SitePorsche/assets/121408278/bb9a5d3a-df7e-4b0c-af09-f7fa0249f762 width="100%" />
+  <img src="https://github.com/abneeralves/SitePorsche/assets/121408278/5f2bf804-bafb-4a7a-a575-35db9676a0fe width="100%" />
 </p>
 
 ## 💻 Descrição
@@ -17,7 +17,7 @@
 ## 🚀 Tecnologias
 
 - HTML
-- JavaScript
+- Typescript
 - Tailwind
 - React
 - Next.js
