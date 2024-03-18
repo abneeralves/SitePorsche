@@ -1,11 +1,19 @@
+'use client'
 import Image from 'next/image'
 import LogoPorsche from '../../public/PorscheLogo.png'
 import vectorP from '../../public/vectorPorsche.png'
 import { Open_Sans } from 'next/font/google'
+import React, { useState } from 'react'
 
-const OpenS = Open_Sans({subsets: ['latin']})
+const OpenS = Open_Sans({subsets: ['latin']});
 
-export default function () {
+const Home: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
     return (
         <>
             <header className='relative'>
@@ -17,10 +25,19 @@ export default function () {
                     </video>
                 </div>
 
+                <div className={`absolute top-0 left-0 flex items-center h-20 w-full z-10 ${isMenuOpen ? 'flex' : 'hidden'}`}>
+                    <div className='bg-white h-[35rem] w-5/12'>
+                        <div>
+                            <h1 className='absolute top-16 left-10 flex items-center text-black text-2xl rounded-md'>Modelos</h1>
+
+                        </div>
+                    </div>
+                </div>
+
                 <nav className='absolute top-0 left-0 flex items-center h-20 w-full z-10'>
-                    {/* <div className='absolute'>
-                        <h1 className='text-black ml-10 m-5 z-10'>Menu</h1>
-                    </div> */}
+                    <div className='absolute'>
+                        <h1 className='text-black ml-10 m-5 z-10 cursor-pointer' onClick={toggleMenu}>Menu</h1>
+                    </div>
 
                     <div className='mx-auto hidden md:flex'>
                         <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10 invert' src={LogoPorsche} alt='Logo Porsche' width={200}/></a>  
@@ -32,7 +49,7 @@ export default function () {
                 </nav>
 
                 <div className='absolute flex items-center h-20 w-full z-10'>
-                    <div className='mb-96 -mt-32'>
+                    <div className={`mb-96 -mt-32  ${isMenuOpen ? 'hidden' : 'flex'}`}>
                         <p className={`text-white text-3xl ml-11 mt-64 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl md:mt-0 sm:text-5xl sm:mb-0 sm:ml-11 sm:mt-11 ${OpenS.className}`}>Keep your 
                         <br />essense.</p> 
                     </div>
@@ -58,4 +75,6 @@ export default function () {
         </>
             
     )
-}
+} 
+
+export default Home
