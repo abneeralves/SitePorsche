@@ -2,15 +2,21 @@
 import Image from 'next/image'
 import LogoPorsche from '../../public/PorscheLogo.png'
 import vectorP from '../../public/vectorPorsche.png'
-import { Open_Sans } from 'next/font/google'
 import React, { useState } from 'react'
+import P718 from '../../public/718.png'
+import P911 from '../../public/P911.png'
+import PTaycan from '../../public/PTaycan.png'
+import PPanamera from '../../public/Panamera.png'
+import PMacan from '../../public/Macan.png'
+import PCayenne from '../../public/Cayenne.png'
+
 
 const Home: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    setIsMenuOpen(!isMenuOpen)
+  }
 
     return (
         <>
@@ -74,21 +80,42 @@ const Home: React.FC = () => {
                         </div>
 
                         </div>
-                        
 
+                        <div className='hidden 2xl:flex bg-zinc-300 w-1/2 rounded-xl flex-col items-center'>
 
-                        <div className='hidden 2xl:flex bg-zinc-300 w-1/2 rounded-xl '>
-                            <h1>abner</h1>
+                            <div className='flex z-10 mt-[44rem] hover:bg-zinc-400 hover:rounded-lg cursor-pointer'>
+                                <Image className='z-10' src={P718} alt='718' width={200}/>
+                            </div>
+
+                            <div className='flex z-10 hover:bg-zinc-400 hover:rounded-lg cursor-pointer'>
+                                <Image className='z-10' src={P911} alt='718' width={200}/>
+                            </div>
+
+                            <div className='flex z-10 hover:bg-zinc-400 hover:rounded-lg cursor-pointer'>
+                                <Image className='z-10' src={PTaycan} alt='718' width={200}/>
+                            </div>
+
+                            <div className='flex z-10 hover:bg-zinc-400 hover:rounded-lg cursor-pointer'>
+                                <Image className='z-10' src={PPanamera} alt='718' width={200}/>
+                            </div>
+
+                            <div className='flex z-10 hover:bg-zinc-400 hover:rounded-lg cursor-pointer'>
+                                <Image className='z-10' src={PMacan} alt='718' width={200}/>
+                            </div>
+
+                            <div className='flex z-10 hover:bg-zinc-400 hover:rounded-lg cursor-pointer'>
+                                <Image className='z-10' src={PCayenne} alt='718' width={200}/>
+                            </div>  
                         </div>
                     </div>
                 </div>
 
                 <nav className='absolute top-0 left-0 flex items-center h-20 w-full z-10'>
-                    <div className='absolute flex cursor-pointer lg:ml-10 2xl:ml-32' onClick={toggleMenu}>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="ml-10 w-6 h-6">
+                    <div className={`absolute flex cursor-pointer ml-10 lg:ml-20 2xl:ml-44 text-white hover:bg-zinc-600 hover:p-1 hover:rounded  ${isMenuOpen ? 'p-1 bg-zinc-700 text-white rounded' : 'flex'}`} onClick={toggleMenu}>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
-                        <h1 className='text-black ml-2 z-10'>Menu</h1>
+                        <h1 className='ml-2 z-10'>Menu</h1>
                     </div>
 
                     <div className={`mx-auto hidden ${isMenuOpen ? 'hidden' : 'flex md:flex'}`}>
@@ -102,7 +129,7 @@ const Home: React.FC = () => {
 
                 <div className='absolute flex items-center h-20 w-full z-10'>
                     <div className={`mb-96 -mt-32  ${isMenuOpen ? 'hidden' : 'flex'}`}>
-                        <p className='text-white text-3xl ml-11 mt-64 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl md:mt-0 sm:text-5xl sm:mb-0 sm:ml-11 sm:mt-11' >Keep your 
+                        <p className='text-white text-3xl ml-11 mt-64 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl md:mt-0 sm:text-5xl sm:mb-0 sm:ml-11 sm:mt-11'>Keep your 
                         <br />essense.</p> 
                     </div>
                     <div className='2xl:-ml-44 2xl:-mt-10 xl:mt-10 xl:-ml-7 lg:ml-20 md:mt-56 md:ml-32 sm:mt-56 sm:ml-48'>
@@ -122,8 +149,6 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </header>
-
-
         </>
             
     )
