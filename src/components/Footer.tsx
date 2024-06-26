@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-black">
-                <div className="sm:ml-20 mb-11 ml-5">
+                <div className="sm:ml-20 mb-11 ml-5 pt-10">
                     <h4 className="text-2xl font-semibold text-white mb-2">Região / Idioma Atual</h4>
 
                     <div className='flex items-center'>

@@ -40,17 +40,17 @@ export default function Main() {
         <main>
             <div id='meio' className="sm:flex min-w-xl">
                 <div className='sm:m-5 ml-auto flex align-center justify-center sm:ml-auto'>
-                    <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="Estação de Recarga." imagem={Eletricos} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
+                    <Destaques modelo="Estação de Recarga." imagem={Eletricos} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/>
                 </div>
 
                 <div className='sm:m-5 flex align-center justify-center -mt-56 '>
-                    <a href="https://www.porsche.com/brazil/pt/models/911/"><Destaques modelo="Os modelos 911." imagem={TurboS} link='https://www.porsche.com/brazil/pt/models/911/'/></a>
+                    <Destaques modelo="Os modelos 911." imagem={TurboS} link='https://www.porsche.com/brazil/pt/models/911/'/>
                 </div>
 
                 <div className='sm:m-5 mr-auto flex align-center justify-center -mt-56 sm:mr-auto'>
-                    <a href="https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/"><Destaques modelo="718 Spyder RS." imagem={Spyder} link='https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/'/></a>
+                    <Destaques modelo="718 Spyder RS." imagem={Spyder} link='https://www.porsche.com/brazil/pt/models/718/718-spyder-rs/718-spyder-rs/'/>
                 </div>    
-            </div>  
+            </div> 
 
             <div className='flex items-center'>
                 <h1 className={`text-5xl m-auto font-semibold text-black ${OpenS.className}`}>Modelos</h1>
@@ -106,15 +106,15 @@ export default function Main() {
 
             <div  className="sm:flex min-w-xl">
                 <div className='sm:m-5 ml-auto flex align-center justify-center sm:ml-auto'>
-                    <a href="https://www.porsche.com/brazil/pt/aboutporsche/e-performance/"><Destaques modelo="E-Performance." imagem={PorscheE} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/></a>
+                    <Destaques modelo="E-Performance." imagem={PorscheE} link='https://www.porsche.com/brazil/pt/aboutporsche/e-performance/'/>
                 </div>
 
                 <div className='sm:m-5 flex align-center justify-center -mt-56'>
-                    <a href="https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/"><Destaques modelo="Tequipment Sound & Design" imagem={PorscheTSD} link='https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/'/></a>
+                    <Destaques modelo="Tequipment Sound & Design" imagem={PorscheTSD} link='https://www.porsche.com/brazil/pt/accessoriesandservice/tequipment/specials/sport-exhaust-systems/'/>
                 </div>
 
                 <div className='sm:m-5 flex align-center justify-center -mt-56 sm:mr-auto'>
-                    <a href="https://finder.porsche.com/br/pt-BR"><Destaques modelo="Porsche Finder" imagem={PorscheFinder} link='https://finder.porsche.com/br/pt-BR'/></a>
+                    <Destaques modelo="Porsche Finder" imagem={PorscheFinder} link='https://finder.porsche.com/br/pt-BR'/>
                 </div>    
             </div>  
 
