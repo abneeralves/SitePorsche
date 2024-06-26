@@ -55,7 +55,7 @@ export default function Main() {
             <div className='flex items-center'>
                 <h1 className={`text-5xl m-auto font-semibold text-black ${OpenS.className}`}>Modelos</h1>
             </div>
-             
+
             <div className='grid xl:grid-cols-2 gap-4 sm:grid-cols-1'>
                 <div className='ml-auto mr-auto xl:mx-2 my-2 w-96 xl:ml-auto mt-20 sm:w-[625px] sm:mr-auto sm:ml-auto'>
                     <Modelos modelo={LogoCayman} imagem={Modelo718} descrição='Dois Lugares com alta dinâmica de condução graçãs ao seu motor central.' config='Configurar o 718' tdsModel='Todos os modelos 718' link='https://www.porsche.com/brazil/pt/modelstart/all/?modelrange=718' link2='https://www.porsche.com/brazil/pt/models/718/'/>
@@ -121,4 +121,4 @@ export default function Main() {
             <Footer />
         </main>
     )
-  }
+}

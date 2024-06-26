@@ -6,9 +6,8 @@ type Mainprops = {
     link: string,
 }
 
-const Main = ({ modelo, imagem, link}: Mainprops) => {
+const Destaques = ({ modelo, imagem, link}: Mainprops) => {
     return (
-       
         <div className='relative'>
             <Image className='rounded-xl mt-24 mb-40' src={imagem} alt='Destaques' width={400}/>
             <div className='absolute inset-0 flex items-center justify-start ml-5 '>
@@ -25,4 +24,4 @@ const Main = ({ modelo, imagem, link}: Mainprops) => {
     )
 }
 
-export default Main
+export default Destaques

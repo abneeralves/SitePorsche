@@ -12,7 +12,6 @@ type Mainprops = {
 
 const Modelos = ({ modelo, imagem, descrição, config, tdsModel, link, link2}: Mainprops) => {
     return (
-       
         <div className='relative'>
             <Image className='rounded-xl h-[35rem] sm:h-[50rem] object-cover' src={imagem} alt='Modelos Principais da Porsche' />
             

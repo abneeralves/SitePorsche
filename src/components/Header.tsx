@@ -10,13 +10,12 @@ import PPanamera from '../../public/Panamera.png'
 import PMacan from '../../public/Macan.png'
 import PCayenne from '../../public/Cayenne.png'
 
-
 const Home: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen)
+    }
 
     return (
         <>
@@ -149,8 +148,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </header>
-        </>
-            
+        </>    
     )
 } 
 
