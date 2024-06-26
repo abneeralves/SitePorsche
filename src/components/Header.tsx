@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import LogoPorsche from '../../public/PorscheLogo.png'
-import vectorP from '../../public/vectorPorsche.png'
+import vectorP from '../../public/VectorPorsche.png'
 import React, { useState } from 'react'
 import P718 from '../../public/718.png'
 import P911 from '../../public/P911.png'
