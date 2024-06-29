@@ -2,10 +2,6 @@
   Site Porsche
 </h1>
 
-<h2 align="center">
-  Site em Construção.
-</h2>
-
 <p align="center">
   <img src="https://github.com/abneeralves/SitePorsche/assets/121408278/5f2bf804-bafb-4a7a-a575-35db9676a0fe width="100%" />
 </p>
@@ -23,8 +19,8 @@
 - Next.js
 
 ## 🎬 Visualização do projeto
+- https://sitedaporsche.vercel.app
 
-### - Site oficial da Porsche 
+## 📌 Site oficial da Porsche 
+
 - https://www.porsche.com/brazil/pt/
-
-  
