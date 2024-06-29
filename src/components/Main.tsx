@@ -53,7 +53,7 @@ export default function Main() {
             </div> 
 
             <div className='flex items-center'>
-                <h1 className={`text-5xl m-auto font-semibold text-black ${OpenS.className}`}>Modelos</h1>
+                <h1 className={`text-4xl sm:text-5xl m-auto font-semibold text-black ${OpenS.className}`}>Modelos</h1>
             </div>
 
             <div className='grid xl:grid-cols-2 gap-4 sm:grid-cols-1'>
@@ -83,7 +83,7 @@ export default function Main() {
             </div>
 
             <div className='flex items-center'>
-                <h2 className={`text-5xl m-auto mt-32 mb-24 font-semibold text-black ${OpenS.className}`}>Social Media Stories</h2>
+                <h2 className={`text-4xl sm:text-5xl m-auto mt-32 mb-24 font-semibold text-black ${OpenS.className}`}>Social Media Stories</h2>
             </div>
 
             <div className='flex mb-32 items-center justify-center'>
@@ -101,7 +101,7 @@ export default function Main() {
             </div>
 
             <div className='flex items-center -mt-32'>
-                <h3 className={`text-5xl m-auto font-semibold text-black mt-40 ${OpenS.className}`}>Descubra</h3>
+                <h3 className={`text-4xl sm:text-5xl m-auto font-semibold text-black mt-40 ${OpenS.className}`}>Descubra</h3>
             </div>
 
             <div  className="sm:flex min-w-xl">

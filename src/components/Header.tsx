@@ -121,14 +121,14 @@ const Home: React.FC = () => {
                         <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10 invert' src={LogoPorsche} alt='Logo Porsche' width={200}/></a>  
                     </div>
 
-                    <div className={`mx-auto md:hidden ${isMenuOpen ? 'hidden' : 'flex'}`}>
-                        <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10 -mt-9 sm:mt-2 sm:w-[40px]' src={vectorP} alt='Logo Porsche' width={30}/></a>  
+                    <div className={`ml-auto mr-10 md:hidden ${isMenuOpen ? 'hidden' : 'flex'}`}>
+                        <a href="https://www.porsche.com/brazil/pt/"><Image className='-z-10 sm:mt-2 sm:w-[24px]' src={vectorP} alt='Logo Porsche' width={20}/></a>  
                     </div>     
                 </nav>
 
                 <div className='absolute flex items-center h-20 w-full z-10'>
                     <div className={`mb-96 -mt-32  ${isMenuOpen ? 'hidden' : 'flex'}`}>
-                        <p className='text-white text-3xl ml-11 mt-64 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl md:mt-0 sm:text-5xl sm:mb-0 sm:ml-11 sm:mt-11'>Keep your 
+                        <p className='absolute sm:relative text-white text-3xl ml-11 mt-20 2xl:mb-96 2xl:text-9xl 2xl:ml-44 xl:text-8xl xl:mb-60 xl:ml-20 lg:text-7xl lg:mb-0 lg:ml-20 md:text-6xl md:mt-0 sm:text-5xl sm:mb-0 sm:ml-11 sm:mt-11'>Keep your 
                         <br />essense.</p> 
                     </div>
                     <div className='2xl:-ml-44 2xl:-mt-10 xl:mt-10 xl:-ml-7 lg:ml-20 md:mt-56 md:ml-32 sm:mt-56 sm:ml-48'>
